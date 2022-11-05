@@ -150,6 +150,8 @@ align-items: center;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--phone-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contact-icon {
@@ -498,6 +500,10 @@ margin-top: 12px;
 
 .projects-list .item:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.projects-list .link{
+    display: block;
 }
 
 .examples .projects {
